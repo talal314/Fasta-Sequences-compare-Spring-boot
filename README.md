@@ -31,7 +31,7 @@ Second folder who will be create by usin python code to generate the dotplot ima
 <li>pip install numpy</li>
 <li>pip install matplotlib</li>
 <li>Dependecies and plugins:
- <dependencies>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -52,7 +52,7 @@ Second folder who will be create by usin python code to generate the dotplot ima
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+
 
 	<build>
 		<plugins>
