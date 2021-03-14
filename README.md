@@ -27,8 +27,42 @@ Second folder who will be create by usin python code to generate the dotplot ima
 ## Requirements
 <ol>
 <li>java version "1.8.0_281"</li>
+<li>Create new Spring boot web application</li>
 <li>pip install numpy</li>
 <li>pip install matplotlib</li>
+<li>Dependecies and plugins:
+ <dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+ </li>
 </ol>
 You need to add to your application.properties these commands to not save the cache files and take the resource files directly from your machine:
 spring.thymeleaf.cache=false
