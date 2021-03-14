@@ -1,0 +1,11 @@
+body{
+    background-color: #eee;
+}
+
+.wrapper{
+    margin:0 auto;
+    width:1024px;
+}
+.img{
+padding-top:20px;
+}
