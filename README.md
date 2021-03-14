@@ -1,7 +1,7 @@
 # Fasta-Sequences-compare
 Add fasta files and compare two sequnces 
 
-# Tyma subject Malaga University
+# Algorithmic Techniques and Models subject Malaga University
 
 ## Tools
 <ol>
@@ -71,7 +71,7 @@ spring.resources.static-locations=${project.base-dir}/src/main/resources/static/
 
 ## Results
 Final result should be (check a [demo]).
-Please note that the demo its not working when you make new comparison between two fasta files and that because in this method the application use the cmd to execute the python file.
+Please note that the demo its not working when you make new comparison between two fasta files and that because in this method the application use the cmd to execute the python file (dotplot.py).
 
 <img width="780" alt="website" src="https://user-images.githubusercontent.com/49337666/111064837-a14ca080-84b6-11eb-9a59-aec8b486a3db.PNG">
 
