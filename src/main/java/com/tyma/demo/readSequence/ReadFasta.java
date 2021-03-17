@@ -1,7 +1,8 @@
 package com.tyma.demo.readSequence;
 
 import java.io.*;
-
+//methods in c language from estebanpw, ortrelles
+//https://github.com/estebanpw/TYMA-2021/
 
 public class ReadFasta {
     public static void CompareSequence(String first,String second) {
