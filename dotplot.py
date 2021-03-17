@@ -1,7 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import sys
-
+#//python file from in c language estebanpw, ortrelles
+#//https://github.com/estebanpw/TYMA-2021/
 if(len(sys.argv) != 2):
     print("Error, use: python dotplot.py <dotplot.txt>")
     exit()
